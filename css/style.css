@@ -20,10 +20,6 @@ nav {
   color: white;
 }
 
-.hidden-nav {
-  display: none;
-}
-
 main {
   background: white;
   text-align: justified;
@@ -35,7 +31,7 @@ h1 {
 }
 
 footer {
-  background: lightblue;  
+  background: lightblue;
   text-align: center;
 }
 
@@ -73,7 +69,7 @@ body {
     height: 2.5rem;
     background: lightgrey;
   }
-  
+
   nav {
     padding: .5rem;
     background: lightgrey;
@@ -85,17 +81,17 @@ body {
     align-items: flex-end;
     flex-direction: column;
   }
-  
+
   .nav-links {
     display: none;
   }
-  
+
   .hamburger {
     display: flex;
   }
-  
+
   /*   when hamburger icon is checked, nav links will pop out */
-  
+
   #menu-toggle:checked ~ .nav-links {
     display: flex;
     flex-direction: column;
