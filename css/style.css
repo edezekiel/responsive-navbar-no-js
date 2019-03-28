@@ -6,13 +6,11 @@
 
 nav {
   background: lightgrey;
-  opacity: 1;
 }
 
 nav a {
   text-decoration: none;
   color: black;
-  padding: .25rem
 }
 
 nav a:hover {
@@ -22,7 +20,6 @@ nav a:hover {
 main {
   background: white;
   text-align: justify;
-  padding: .5rem;
 }
 
 footer {
