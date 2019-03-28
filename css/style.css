@@ -1,8 +1,7 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-size: 26px;
 }
 
 nav {
@@ -10,24 +9,20 @@ nav {
   opacity: 1;
 }
 
-.nav-links a {
+nav a {
   text-decoration: none;
   color: black;
   padding: .25rem
 }
 
-.nav-links a:hover {
+nav a:hover {
   color: white;
 }
 
 main {
   background: white;
-  text-align: justified;
+  text-align: justify;
   padding: .5rem;
-}
-
-h1 {
-  padding-bottom: .5rem;
 }
 
 footer {
@@ -42,12 +37,12 @@ body {
   flex-direction: column;
 }
 
-.nav-links {
+nav {
   display: flex;
   flex-flow: row wrap;
 }
 
-.nav-links a {
+nav a {
   flex: 1 0;
   text-align: center;
 }
@@ -55,7 +50,7 @@ body {
 /* Media queries */
 
 @media screen and (max-width: 768px) {
-/* 
+/*
   nav {
     padding: .5rem;
     background: lightgrey;
