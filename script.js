@@ -1,7 +1,3 @@
-console.log('hi there')
-
-let nav = document.querySelector('nav')
-
 let navOptions = document.querySelectorAll('nav a')
 
 function clicked(){

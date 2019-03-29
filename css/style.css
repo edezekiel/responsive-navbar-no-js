@@ -14,7 +14,7 @@ nav a {
 }
 
 nav a:hover {
-  color: white;
+  background-color: white;
 }
 
 main {
@@ -47,17 +47,12 @@ nav a {
 /* Media queries */
 
 @media screen and (max-width: 768px) {
-/*
-  nav {
-    padding: .5rem;
-    background: lightgrey;
-    position: fixed;
-    flex: 1;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    flex-direction: column;
-  } */
 
+  nav {
+    order: 3;
+  }
+
+  footer {
+    display: none;
+  }
 }
