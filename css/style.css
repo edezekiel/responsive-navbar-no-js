@@ -48,11 +48,11 @@ nav a {
 
 @media screen and (max-width: 768px) {
 
-  /* nav {
+  nav {
     order: 3;
   }
 
   footer {
     display: none;
-  } */
+  }
 }
